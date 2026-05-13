@@ -1,7 +1,7 @@
 import { THEME } from "../../styles/constants";
 import { StyleSheet } from "react-native"
 
-const styles = StyleSheet.create({
+export const styles = StyleSheet.create({
 
     buttonContainer: {
         backgroundColor: THEME.colors.primary,
