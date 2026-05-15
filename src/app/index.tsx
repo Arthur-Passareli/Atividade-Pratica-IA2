@@ -2,8 +2,11 @@ import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { THEME } from "../styles/constants";
 import { Button } from "../components/Buttons";
+import { useRouter } from "expo-router";
 
 export default function HomeScreen() {
+    const router = useRouter(); 
+
     return (
         <SafeAreaView>
             <View style={styles.container}>
@@ -12,7 +15,7 @@ export default function HomeScreen() {
                     <Text style={styles.subtitle}>Seu cartão de visita digital de dev mobile</Text>
                 </View>
 
-                <Button label="Criar meu cartão"/>
+                <Button label="Criar meu cartão" onPress={() => router.push("/cadastro")}/>
                 
             </View>
         </SafeAreaView>
