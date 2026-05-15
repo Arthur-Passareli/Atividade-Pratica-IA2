@@ -98,7 +98,6 @@ export default function CadastroScreen() {
 
             // fullName - required, min 3 caracteres
             case "fullName": 
-                console.log(`nome inexistente: ${!fullName} | nome < 3: ${fullName.length < 3} | quantidade de caracteres: ${fullName.length} | nome: ${fullName}`)
                 if(!fullName || fullName.length < 3) {
                     handleSetOrRemoveInputError("fullName", "Informe o nome completo")
                 } else {
