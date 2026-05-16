@@ -8,3 +8,10 @@ autor: Arthur Passareli
 
 Print das telas:
 
+![Home](./assets/home.png)
+
+![Cadastro](./assets/cadastro.png)
+
+![Preview](./assets/preview.png)
+
+![Sucesso](./assets/sucesso.png)
